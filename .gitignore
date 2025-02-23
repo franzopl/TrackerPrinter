@@ -1,0 +1,35 @@
+# Arquivos e diretórios temporários do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+*.venv
+
+# Dependências instaladas localmente
+*.egg-info/
+dist/
+build/
+
+# Diretório de screenshots gerados
+screenshots/
+
+# Perfil do Chrome usado pelo Selenium
+.chrome_torrent_profile/
+
+# Arquivos de log (se você adicionar logs em arquivo no futuro)
+*.log
+
+# Arquivos de configuração sensíveis (se contiverem dados pessoais)
+trackers.conf
+
+# Arquivos temporários do sistema
+*.swp
+*.bak
+.DS_Store  # macOS
+
+# ChromeDriver (se baixado localmente)
+chromedriver
+chromedriver.exe
